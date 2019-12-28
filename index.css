@@ -1,0 +1,16 @@
+.circle-image {
+    border: 0.2rem solid #fff;
+    border-radius: 10rem;
+    box-shadow:0 0 1rem #000;
+    height: 15rem;
+}
+
+#hero {
+    background-image: url("images/coast.jpeg");
+    background-size: cover;
+}
+
+.title {
+    color: #fff;
+    text-shadow: 0.1rem 0.1rem 0.5rem #000;
+}

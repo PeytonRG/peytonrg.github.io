@@ -1,3 +1,7 @@
+.card-img-top {
+    height: 8rem;
+}
+
 .circle-image {
     border: 0.2rem solid #fff;
     border-radius: 10rem;

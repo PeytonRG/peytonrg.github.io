@@ -1,3 +1,14 @@
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+a:hover .card, a:focus .card {
+    animation-name: cards;
+    animation-duration: 0.5s;
+    background-color: #e1e1e1;
+}
+
 body {
     background-color: #eef2f5;
     display: flex;
@@ -109,4 +120,9 @@ footer hr {
 @keyframes arrow {
     from {color: #000;}
     to {color: #007bff;}
+}
+
+@keyframes cards {
+    from {background-color: #fff;}
+    to {background-color: #e1e1e1;}
 }

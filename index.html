@@ -25,15 +25,15 @@
         </div>
     </div>
     <div class="container text-center">
-        <h2>Technological Experience</h2>
+        <h2 id="techExp">Technological Experience</h2>
 
         <p>Interested in seeing what technologies I am experienced in? Check out the list below!</p>
 
-        <div id="techHits" data-aos="fade-up">
+        <div id="techHits">
             <h3>The Hits</h3>
             <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/html.svg" class="tech-image" alt="">
 
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/css.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">CSS</h3>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/dotnet.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">Microsoft .NET</h3>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/sqlserver.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">SQL Server</h3>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/xamarin.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">Xamarin.Forms</h3>
@@ -76,16 +76,17 @@
             </div>
 
             <p>Interested in seeing what else I know? Expand the list to keep going.</p>
-            <button class="btn" id="showTech">
-                <span class="fas fa-chevron-down fa-2x"></span>
-            </button>
+            <a class="btn" id="showTech" href="#techExp">
+                <span class="fas fa-chevron-down fa-2x" aria-hidden="true"></span>
+                <span class="sr-only">Expand list.</span>
+            </a>
         </div>
 
         <div id="allTech" class="d-none">
             <h3>Web Development</h3>
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row" data-aos="fade-up">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/html.svg" class="tech-image" alt="">
 
@@ -94,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/css.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">CSS</h3>
@@ -102,7 +103,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/javascript.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">JavaScript</h3>
@@ -110,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/jquery.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">JQuery</h3>
@@ -118,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/bootstrap.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">Bootstrap</h3>
@@ -128,9 +129,9 @@
             </div>
 
             <h3>Back-End Languages & Frameworks</h3>
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row" data-aos="fade-up">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/csharp.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">C#</h3>
@@ -138,7 +139,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/cplusplus.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">C++</h3>
@@ -146,7 +147,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/java.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">Java</h3>
@@ -154,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/dotnet.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">Microsoft .NET</h3>
@@ -164,9 +165,9 @@
             </div>
 
             <h3>Mobile Development</h3>
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row" data-aos="fade-up">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/xamarin.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">Xamarin.Forms</h3>
@@ -174,7 +175,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/xaml.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">XAML</h3>
@@ -184,9 +185,9 @@
             </div>
 
             <h3>Databases</h3>
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row" data-aos="fade-up">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/sqlserver.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">SQL Server</h3>
@@ -194,7 +195,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/mysql.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">MySQL</h3>
@@ -204,9 +205,9 @@
             </div>
 
             <h3>Industry Tools</h3>
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row" data-aos="fade-up">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/visualstudio.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">Visual Studio</h3>
@@ -214,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/vscode.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">VS Code</h3>
@@ -222,7 +223,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/ssms.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">SSMS</h3>
@@ -230,7 +231,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/github.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">GitHub</h3>
@@ -238,7 +239,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/githubdesktop.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">GitHub Desktop</h3>
@@ -246,7 +247,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/teams.svg" class="tech-image smaller" alt="">
                             <h3 class="card-title h5 text-center">Microsoft Teams</h3>
@@ -254,7 +255,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card align-items-center">
+                    <div class="card align-items-center" data-aos="fade-up">
                         <div class="card-body">
                             <img src="images/jira.svg" class="tech-image" alt="">
                             <h3 class="card-title h5 text-center">JIRA</h3>
@@ -263,9 +264,10 @@
                 </div>
             </div>
 
-            <button class="btn" id="hideTech">
-                <span class="fas fa-chevron-up fa-2x"></span>
-            </button>
+            <a class="btn" id="hideTech" href="#techExp">
+                <span class="fas fa-chevron-up fa-2x" aria-hidden="true"></span>
+                <span class="sr-only">Collapse list.</span>
+            </a>
         </div>
     </div>
 

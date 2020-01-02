@@ -47,6 +47,35 @@ footer hr {
     background-size: cover;
 }
 
+.tech-btn {
+    order: 2;
+}
+
+.tech-btn ~ .line-wing:first-of-type {
+    order: 1;
+}
+
+.tech-btn ~ .line-wing:last-of-type {
+    order: 3;
+}
+
+.tech-btn:hover a {
+    animation-name: arrow;
+    animation-duration: 0.2s;
+    color: #007bff;
+}
+
+.tech-btn:hover ~ .line-wing {
+    animation-name: linewing;
+    animation-duration: 0.5s;
+    background-color: #007bff;
+}
+
+.line-wing {
+    background-color: #000;
+    height: 1px;
+}
+
 .tech-image {
     height: 8rem;
     width: 8rem;
@@ -64,4 +93,14 @@ footer hr {
 .title {
     color: #fff;
     text-shadow: 0.1rem 0.1rem 0.5rem #000;
+}
+
+@keyframes linewing {
+    from { background-color: #000;}
+    to { background-color: #007bff;}
+}
+
+@keyframes arrow {
+    from {color: #000;}
+    to {color: #007bff;}
 }

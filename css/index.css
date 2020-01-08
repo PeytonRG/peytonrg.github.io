@@ -72,7 +72,7 @@ footer hr {
     order: 3;
 }
 
-.tech-btn:hover a {
+.tech-btn:hover {
     animation-name: arrow;
     animation-duration: 0.2s;
     color: #007bff;

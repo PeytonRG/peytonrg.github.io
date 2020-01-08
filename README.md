@@ -1,2 +1,2 @@
 # Peyton Gasink's GitHub Pages
-### You're here early! If you are seeing this, the site is very far from being finished, and is going to be a Christmas break project for me to work on.
+### This site is in early stages of development, but I'll be working on it as a side project over the coming weeks.

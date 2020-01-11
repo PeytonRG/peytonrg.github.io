@@ -54,9 +54,35 @@ footer hr {
     border-color: #fff;
 }
 
+.gradient1 {
+    background: linear-gradient(to top left,#c6d9ec 49%,#eef2f5 51%);
+    height: 50px;
+}
+
 #hero {
     background-image: url("../images/coast.jpeg");
     background-size: cover;
+}
+
+#projectContainer {
+    background-color: #c6d9ec;
+}
+
+#projectContainer .card {
+    margin: 2rem auto;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-image-wrapper {
+    border: 1px solid #222627;
+    border-radius: 0.8rem;
+    /* Replace with a script instead of hard-coding */
+    height: 30rem;
+    overflow: auto;
+    padding: 0;
 }
 
 .tech-btn {
@@ -75,6 +101,11 @@ footer hr {
 .tech-btn:hover {
     animation-name: arrow;
     animation-duration: 0.2s;
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+.tech-btn:hover span {
     color: #007bff;
 }
 
@@ -83,10 +114,6 @@ footer hr {
     animation-duration: 0.5s;
     background-color: #007bff;
 }
-
-/* #techContainer {
-    background-color: #eef2f5;
-} */
 
 .line-wing {
     background-color: #000;

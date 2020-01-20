@@ -2,25 +2,26 @@ $(document).ready(function () {
     // Initialize animate-on-scroll
     AOS.init();
 
-    var techContainer = document.getElementById("techContainer");
-    var techHits = document.getElementById("techHits");
-    var allTech = document.getElementById("allTech");
+    var techCollapseButton = document.getElementById("techCollapse");
+    var rotated = false;
 
-    var showTech = document.getElementById("showTech");
-    showTech.onclick = function () {
-        techHits.classList.add("d-none");
-        allTech.classList.remove("d-none");
+    techCollapseButton.onclick = function () {
+        if (!rotated)
+            techCollapseButton.style.transform = "rotate(180deg)";
+        else
+            techCollapseButton.style.transform = "";
+        rotated = !rotated;
 
-        // Refresh AOS's DOM offsets now that new elements are displayed
+        refreshAOS();
+    }
+
+    const delay = ms => new Promise(res => setTimeout(res, ms));
+
+    // Refresh AOS's DOM offsets now that new elements are displayed
+    const refreshAOS = async () => {
+        // Wait 200ms to give Bootstrap's collapse functions time to fully execute
+        // so height offsets are accurate for AOS' refresh.
+        await delay(200);
         AOS.refresh();
-    };
-
-    var hideTech = document.getElementById("hideTech");
-    hideTech.onclick = function () {
-        allTech.classList.add("d-none");
-        techHits.classList.remove("d-none");
-
-        // Refresh AOS's DOM offsets now that new elements are displayed
-        AOS.refresh();
-    };
+    }
 });

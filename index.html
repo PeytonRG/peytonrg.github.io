@@ -32,76 +32,7 @@
 
         <p>Interested in seeing what technologies I am experienced in? Check out the list below!</p>
 
-        <div id="techHits">
-            <h3>The Hits</h3>
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
-                <div class="col">
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">
-                        <div class="card align-items-center" data-aos="fade-up">
-                            <div class="card-body">
-                                <img src="images/html.svg" class="tech-image" alt="">
-
-                                <h3 class="card-title h5 text-center">HTML</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener">
-                        <div class="card align-items-center" data-aos="fade-up">
-                            <div class="card-body">
-                                <img src="images/css.svg" class="tech-image" alt="">
-                                <h3 class="card-title h5 text-center">CSS</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://dotnet.microsoft.com" target="_blank" rel="noopener">
-                        <div class="card align-items-center" data-aos="fade-up">
-                            <div class="card-body">
-                                <img src="images/dotnet.svg" class="tech-image" alt="">
-                                <h3 class="card-title h5 text-center">Microsoft .NET</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.microsoft.com/en-us/sql-server/default.aspx" target="_blank" rel="noopener">
-                        <div class="card align-items-center" data-aos="fade-up">
-                            <div class="card-body">
-                                <img src="images/sqlserver.svg" class="tech-image smaller" alt="">
-                                <h3 class="card-title h5 text-center">SQL Server</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms" target="_blank" rel="noopener">
-                        <div class="card align-items-center" data-aos="fade-up">
-                            <div class="card-body">
-                                <img src="images/xamarin.svg" class="tech-image" alt="">
-                                <h3 class="card-title h5 text-center">Xamarin.Forms</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <p>Interested in seeing what else I know? Expand the list to keep going.</p>
-            <div class="d-flex align-items-center">
-                <div class="col-2 tech-btn">
-                    <a class="btn" id="showTech" href="#techExp" title="Expand list.">
-                        <span class="fas fa-chevron-down fa-2x" aria-hidden="true"></span>
-                    </a>
-                </div>
-                <div class="col-5 line-wing"></div>
-                <div class="col-5 line-wing"></div>
-            </div>
-
-        </div>
-
-        <div id="allTech" class="d-none">
+        <div class="collapse" id="collapseTech" aria-expanded="false">
             <h3>Web Development</h3>
             <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 tech-row">
                 <div class="col">
@@ -326,16 +257,17 @@
                     </a>
                 </div>
             </div>
+        </div>
 
-            <div class="d-flex align-items-center">
-                <div class="col-2 tech-btn">
-                    <a class="btn" id="hideTech" href="#techExp" title="Collapse list.">
-                        <span class="fas fa-chevron-up fa-2x" aria-hidden="true"></span>
-                    </a>
-                </div>
-                <div class="col-5 line-wing"></div>
-                <div class="col-5 line-wing"></div>
+        <div class="d-flex align-items-center">
+            <div class="col-2 tech-btn">
+                <button id="techCollapse" class="btn" type="button" data-toggle="collapse" data-target="#collapseTech"
+                    aria-expanded="false" aria-controls="collapseTech">
+                    <span class="fas fa-chevron-down fa-2x" aria-hidden="true"></span>
+                </button>
             </div>
+            <div class="col-5 line-wing"></div>
+            <div class="col-5 line-wing"></div>
         </div>
     </div>
 

@@ -75,7 +75,6 @@ footer hr {
 
 #projectContainer {
     background-color: #c6d9ec;
-    /* margin-top: -0.5rem; */
 }
 
 #projectContainer .card {
@@ -124,7 +123,6 @@ footer hr {
     animation-duration: 0.5s;
     background-color: #007bff;
 }
-
 
 .tech-image {
     height: 8rem;

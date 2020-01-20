@@ -63,22 +63,19 @@ footer hr {
     border-color: #fff;
 }
 
-#triangleDivider {
-    width: 0;
-    height: 0;
-    border-top: 10vw solid #eef2f5;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
-}
-
 #hero {
     background-image: url("../images/coast.jpeg");
     background-size: cover;
 }
 
+.line-wing {
+    background-color: #000;
+    height: 1px;
+}
+
 #projectContainer {
     background-color: #c6d9ec;
-    margin-top: -1rem;
+    /* margin-top: -0.5rem; */
 }
 
 #projectContainer .card {
@@ -111,7 +108,7 @@ footer hr {
     order: 3;
 }
 
-.tech-btn:hover {
+.tech-btn:hover .btn {
     animation-name: arrow;
     animation-duration: 0.2s;
     transform: translateY(-5px);
@@ -128,10 +125,6 @@ footer hr {
     background-color: #007bff;
 }
 
-.line-wing {
-    background-color: #000;
-    height: 1px;
-}
 
 .tech-image {
     height: 8rem;
@@ -150,6 +143,14 @@ footer hr {
 .title {
     color: #fff;
     text-shadow: 0.1rem 0.1rem 0.5rem #000;
+}
+
+#triangleDivider {
+    width: 0;
+    height: 0;
+    border-top: 10vw solid #eef2f5;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
 }
 
 @keyframes linewing {

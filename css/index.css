@@ -16,12 +16,6 @@ body {
     min-height: 100vh;
 }
 
-/* .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 .circle-image {
     border: 0.2rem solid #fff;
     border-radius: 10rem;

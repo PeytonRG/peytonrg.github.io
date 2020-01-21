@@ -34,7 +34,7 @@ body {
     margin: 1rem 0;
 }
 
-#collapseTech.collapse:not(.show) {
+/* #collapseTech.collapse:not(.show) {
   display: block;
   height: 18rem;
   overflow: hidden;
@@ -42,7 +42,7 @@ body {
 
 #collapseTech.collapsing {
   height: 18rem;
-}
+} */
 
 .connect-image {
     width: 60%;

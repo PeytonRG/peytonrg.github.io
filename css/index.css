@@ -16,11 +16,11 @@ body {
     min-height: 100vh;
 }
 
-.card-body {
+/* .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .circle-image {
     border: 0.2rem solid #fff;
@@ -78,20 +78,11 @@ footer hr {
 }
 
 #projectContainer .card {
-    margin: 2rem auto;
+    margin-bottom: 1.5rem;
 }
 
-.project-image {
-    width: 100%;
-}
-
-.project-image-wrapper {
-    border: 1px solid #222627;
-    border-radius: 0.8rem;
-    /* Replace with a script instead of hard-coding */
-    height: 30rem;
-    overflow: auto;
-    padding: 0;
+#projectRow {
+    margin-top: 1.5rem;
 }
 
 .tech-btn {

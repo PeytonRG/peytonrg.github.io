@@ -107,23 +107,6 @@ footer hr {
     order: 3;
 }
 
-.tech-btn:hover .btn {
-    animation-name: arrow;
-    animation-duration: 0.2s;
-    transform: translateY(-5px);
-    transition: 0.3s ease;
-}
-
-.tech-btn:hover span {
-    color: #007bff;
-}
-
-.tech-btn:hover ~ .line-wing {
-    animation-name: linewing;
-    animation-duration: 0.5s;
-    background-color: #007bff;
-}
-
 .tech-image {
     height: 8rem;
     width: 8rem;
@@ -149,6 +132,25 @@ footer hr {
     border-top: 10vw solid #eef2f5;
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
+}
+
+@media only screen and (min-width: 768px){
+    .tech-btn:hover .btn {
+        animation-name: arrow;
+        animation-duration: 0.2s;
+        transform: translateY(-5px);
+        transition: 0.3s ease;
+    }
+
+    .tech-btn:hover span {
+        color: #007bff;
+    }
+
+    .tech-btn:hover ~ .line-wing {
+        animation-name: linewing;
+        animation-duration: 0.5s;
+        background-color: #007bff;
+    }
 }
 
 @keyframes linewing {

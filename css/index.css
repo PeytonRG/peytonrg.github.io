@@ -20,7 +20,7 @@ body {
     border: 0.2rem solid #fff;
     border-radius: 10rem;
     box-shadow:0 0 1rem #000;
-    width: 15rem;
+    width: 100%;
 }
 
 .col .card {
@@ -37,10 +37,6 @@ footer {
     color: #fff;
     padding: 1rem;
     margin-top: auto;
-}
-
-footer .circle-image {
-    width: 100%;
 }
 
 footer hr {

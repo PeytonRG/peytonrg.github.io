@@ -47,6 +47,14 @@ footer hr {
     border-color: #fff;
 }
 
+.glide__bullet {
+    background-color: #000 !important;
+}
+
+.glide__bullet--active {
+    opacity: 1 !important;
+}
+
 #hero {
     background-image: url("../images/coast.jpeg");
     background-size: cover;

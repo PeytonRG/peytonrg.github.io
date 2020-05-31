@@ -62,6 +62,10 @@ footer hr {
     flex-direction: column;
 }
 
+.project-card-body .card-title {
+    margin: 0;
+}
+
 #projectContainer {
     background-color: #c6d9ec;
 }

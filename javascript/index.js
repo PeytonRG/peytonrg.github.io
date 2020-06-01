@@ -40,7 +40,7 @@ $(document).ready(function () {
         rewind: false,
         startAt: 0,
         swipeThreshold: 50,
-        type: 'slider',
+        type: 'carousel',
         // breakpoints: {
         //     1199: {
         //         perView: Math.min(navBarLinksCount, 6)

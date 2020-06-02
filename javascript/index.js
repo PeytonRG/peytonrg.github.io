@@ -66,5 +66,27 @@ $(document).ready(function () {
         }
     });
 
+    const track = document.querySelector(".glide__track");
+
+    // Using the Glide API to build in some accessibility features
+    // on initiation and every time a glide is triggered.
+    // Aria-current is used to convey which slide is currently active
+    glide.on(['build.after', 'run.after'], function () {
+        var slides = track.querySelectorAll(".glide__slide");
+        slides.forEach((slide) => {
+            slide.setAttribute("aria-current", "false");
+        });
+        var activeSlide = track.querySelector(".glide__slide--active");
+        activeSlide.setAttribute("aria-current", "page");
+    });
+
+    // Update the currently open nav sub-menu after a glide is triggered
+    glide.on('run.after', function () {
+        var collapses = track.querySelectorAll(".collapse");
+        collapses.forEach((collapse) => {
+            $(collapse).collapse('hide');
+        });
+    });
+
     glide.mount();
 });

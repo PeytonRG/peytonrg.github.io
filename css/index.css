@@ -53,11 +53,11 @@ footer hr {
 }
 
 .glide__arrow--left {
-    left: -2.5rem;
+    left: -4rem;
 }
 
 .glide__arrow--right {
-    right: -2.5rem;
+    right: -4rem;
 }
 
 .glide__bullet {
@@ -85,6 +85,14 @@ footer hr {
 
 .project-card-body .card-title {
     margin: 0;
+}
+
+.project-card-body .navbar {
+    padding: 0;
+}
+
+.project-card-body .navbar-toggler {
+    margin: auto;
 }
 
 #projectContainer {

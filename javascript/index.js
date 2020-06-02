@@ -41,32 +41,29 @@ $(document).ready(function () {
         startAt: 0,
         swipeThreshold: 50,
         type: 'carousel',
-        // breakpoints: {
-        //     1199: {
-        //         perView: Math.min(navBarLinksCount, 6)
-        //     },
-        //     991: {
-        //         perView: Math.min(navBarLinksCount, 5)
-        //     },
-        //     768: {
-        //         gap: 10,
-        //         peek: { before: 75, after: 75 },
-        //         perView: Math.min(navBarLinksCount, 3),
-        //         type: 'carousel'
-        //     },
-        //     700: {
-        //         gap: 10,
-        //         peek: { before: 100, after: 100 },
-        //         perView: Math.min(navBarLinksCount, 2),
-        //         type: 'carousel'
-        //     },
-        //     550: {
-        //         gap: 10,
-        //         peek: { before: 90, after: 90 },
-        //         perView: 1,
-        //         type: 'carousel'
-        //     }
-        // }
+        breakpoints: {
+            // 1199: {
+            //     perView: Math.min(navBarLinksCount, 6)
+            // },
+            // 991: {
+            //     perView: Math.min(navBarLinksCount, 5)
+            // },
+            768: {
+                peek: 0,
+            },
+            // 700: {
+            //     gap: 10,
+            //     peek: { before: 100, after: 100 },
+            //     perView: Math.min(navBarLinksCount, 2),
+            //     type: 'carousel'
+            // },
+            // 550: {
+            //     gap: 10,
+            //     peek: { before: 90, after: 90 },
+            //     perView: 1,
+            //     type: 'carousel'
+            // }
+        }
     });
 
     glide.mount();

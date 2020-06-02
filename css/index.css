@@ -95,6 +95,15 @@ footer hr {
     margin: auto;
 }
 
+.project-card-body .row {
+    justify-content: center;
+}
+
+.project-card-details {
+    max-height: 35rem;
+    overflow-y: auto;
+}
+
 #projectContainer {
     background-color: #c6d9ec;
 }

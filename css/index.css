@@ -48,16 +48,26 @@ footer hr {
 }
 
 .glide__arrow {
+    bottom: 50%;
     position: absolute;
-    top: 45%;
 }
 
 .glide__arrow--left {
-    left: -4rem;
+    left: -0.5rem;
 }
 
 .glide__arrow--right {
-    right: -4rem;
+    right: -0.5rem;
+}
+
+@media (min-width: 768px) {
+    .glide__arrow--left {
+        left: -2.5rem;
+    }
+
+    .glide__arrow--right {
+        right: -2.5rem;
+    }
 }
 
 .glide__bullet {
@@ -100,8 +110,14 @@ footer hr {
 }
 
 .project-card-details {
-    max-height: 35rem;
+    max-height: 28rem;
     overflow-y: auto;
+}
+
+@media (min-width: 1200px) {
+    .project-card-details{
+        max-height: 35rem;
+    }
 }
 
 #projectContainer {

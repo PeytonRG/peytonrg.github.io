@@ -182,6 +182,17 @@ footer hr {
     text-shadow: 0.1rem 0.1rem 0.5rem #000;
 }
 
+#toastDemo {
+    --header-color-light: #6c757d;
+    --text-color-light: #212529;
+    --header-bg-color-light: rgba(255,255,255,.85);
+    --body-bg-color-light: rgba(255,255,255,.85);
+    --header-color-dark: #f8f9fa;
+    --text-color-dark: #f8f9fa;
+    --header-bg-color-dark: rgba(30,40,45,.85);
+    --body-bg-color-dark: rgba(30,40,45,.85);
+}
+
 #triangleDivider {
     width: 0;
     height: 0;

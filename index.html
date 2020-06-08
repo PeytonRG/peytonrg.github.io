@@ -15,8 +15,11 @@
         integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css"
         integrity="sha256-Ev8y2mML/gGa4LFVZgNpMTjKwj34q4pC4DcseWeRb9w=" crossorigin="anonymous" />
-    <link rel="shortcut icon" href="https://github.githubassets.com/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-toast.js@1.0.9/css/bootstrap-toast.min.css"
+        integrity="sha256-F3a9g9kaUSBf1uuyxAG1P8H0XEd4iAi2bdlJNYGdd+0=" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" />
+
+    <link rel="shortcut icon" href="https://github.githubassets.com/favicon.ico">
 
     <title>Peyton Gasink</title>
 </head>
@@ -526,32 +529,54 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-lg-4">
-                                            <div id="carouselToast" class="carousel slide" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#carouselToast" data-slide-to="0" class="active">
-                                                    </li>
-                                                    <li data-target="#carouselToast" data-slide-to="1"></li>
-                                                    <li data-target="#carouselToast" data-slide-to="2"></li>
-                                                    <li data-target="#carouselToast" data-slide-to="3"></li>
-                                                </ol>
-                                                <div class="carousel-inner">
-                                                    <div class="carousel-item active">
-                                                        <img src="images/projects/nursing1.png" class="d-block w-100"
-                                                            alt="...">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/projects/nursing2.png" class="d-block w-100"
-                                                            alt="...">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/projects/nursing3.png" class="d-block w-100"
-                                                            alt="...">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/projects/nursing4.png" class="d-block w-100"
-                                                            alt="...">
-                                                    </div>
+                                        <div id="toastDemo" class="col-md-6 col-lg-4">
+                                            <div class="toast fade show" role="status" aria-live="polite"
+                                                aria-atomic="true" data-autohide="true" data-delay="10000">
+                                                <div class="toast-header">
+                                                    <span class="status-icon fas mr-2 text-success fa-check-circle"
+                                                        aria-hidden="true"></span>
+                                                    <strong class="mr-auto toast-title">Success</strong>
+                                                    <small class="timer" aria-hidden="true">just now</small>
+                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="toast-body">
+                                                    Task completed successfully.
+                                                </div>
+                                            </div>
+                                            <div class="toast fade show" role="alert" aria-live="assertive"
+                                                aria-atomic="true" data-autohide="true" data-delay="10000">
+                                                <div class="toast-header">
+                                                    <span
+                                                        class="status-icon fas mr-2 text-warning fa-exclamation-circle"
+                                                        aria-hidden="true"></span>
+                                                    <strong class="mr-auto toast-title">Warning</strong>
+                                                    <small class="timer" aria-hidden="true">1m ago</small>
+                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="toast-body">
+                                                    There's something that needs your attention.
+                                                </div>
+                                            </div>
+                                            <div class="toast fade show" role="alert" aria-live="assertive"
+                                                aria-atomic="true" data-autohide="true" data-delay="10000">
+                                                <div class="toast-header">
+                                                    <span class="status-icon fas mr-2 text-danger fa-times-circle"
+                                                        aria-hidden="true"></span>
+                                                    <strong class="mr-auto toast-title">Error</strong>
+                                                    <small class="timer" aria-hidden="true">2m ago</small>
+                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="toast-body">
+                                                    A server error occurred.
                                                 </div>
                                             </div>
                                         </div>
@@ -1236,6 +1261,8 @@
     integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"
     integrity="sha256-CnNQJd80jPuIDyeQRRq7+Wgt+++Kl0dZLt4ETNmxMIw=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-toast.js@1.0.9/js/bootstrap-toast.min.js"
+    integrity="sha256-ZsG93gmBOWL8czXtqTsyVqcTdXQModLb08SsP9Yf2RY=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="javascript/index.js"></script>
 
 </html>

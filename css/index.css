@@ -50,19 +50,23 @@ footer hr {
 }
 
 .glide__arrow {
-    bottom: 50%;
+    bottom: 5%;
     position: absolute;
 }
 
 .glide__arrow--left {
-    left: -0.5rem;
+    left: 0;
 }
 
 .glide__arrow--right {
-    right: -0.5rem;
+    right: 0;
 }
 
 @media (min-width: 768px) {
+    .glide__arrow {
+        bottom: 50%;
+    }
+
     .glide__arrow--left {
         left: -2.5rem;
     }
@@ -112,13 +116,25 @@ footer hr {
 }
 
 .project-card-details {
-    max-height: 28rem;
+    /* height: 28rem; */
     overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+    .project-card-details{
+        height: 31rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-card-details{
+        height: 30rem;
+    }
 }
 
 @media (min-width: 1200px) {
     .project-card-details{
-        max-height: 35rem;
+        height: 35.5rem;
     }
 }
 

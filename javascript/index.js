@@ -40,7 +40,7 @@ $(document).ready(function () {
         rewind: false,
         startAt: 0,
         swipeThreshold: 50,
-        type: 'carousel',
+        type: 'slider',
         breakpoints: {
             768: {
                 peek: 0,

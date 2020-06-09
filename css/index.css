@@ -22,6 +22,11 @@ body {
     min-height: 100vh;
 }
 
+#carouselSGA .carousel-inner {
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+}
+
 .circle-image {
     border: 0.2rem solid #fff;
     border-radius: 10rem;
@@ -101,6 +106,11 @@ footer hr {
 
 .project-card-body .card-title {
     margin: 0;
+}
+
+.project-card-body .carousel-indicators {
+    background-color: rgba(119,136,153,.85);
+    border-radius: 5px;
 }
 
 .project-card-body .navbar {

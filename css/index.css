@@ -203,17 +203,10 @@ footer hr {
 }
 
 #triangleDivider {
-    /* width: 0;
-    height: 0;
-    border-top: 10vw solid #eef2f5;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent; */
-    width: 100%;
-    height: 10rem;
     background-color: #eef2f5;
-
-    /* The points are: centered top, left bottom, right bottom */
     clip-path: polygon(50% 100%, 0 0, 100% 0);
+    height: 5rem;
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px){
@@ -232,6 +225,10 @@ footer hr {
         animation-name: linewing;
         animation-duration: 0.5s;
         background-color: #007bff;
+    }
+
+    #triangleDivider {
+        height: 10rem;
     }
 }
 

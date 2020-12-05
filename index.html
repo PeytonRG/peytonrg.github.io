@@ -37,7 +37,7 @@
                 </div>
                 <h1 class="display-4 text-center">Peyton Gasink</h1>
                 <p id="outline" class="lead text-center">
-                    Welcome to my portfolio! I will soon be starting as a software engineer at Hexagon Safety &
+                    Welcome to my portfolio! I am an incoming software engineer at Hexagon Safety &
                     Infastructure. My areas of interest are user interfaces, the .NET ecosystem, and
                     mobile app development.
                 </p>
@@ -319,12 +319,124 @@
         <div class="container mt-3" data-aos="fade-up">
             <h2 id="" class="text-center">Projects</h2>
             <p class="text-center">
-                Below is a chronology of my recent projects, since late 2018. Look through to see my designs and read
-                all about my work!
+                Below are a few of my recent projects. Take a look to see my work in action!
             </p>
             <div class="glide" data-aos="fade-up">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
+                        <!-- Toasts -->
+                        <li class="glide__slide">
+                            <div class="card">
+                                <div class="card-body project-card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-8 project-card-details mb-3 mb-lg-0">
+                                            <a href="https://github.com/PeytonRG/bootstrap-toast.js" target="_blank"
+                                                rel="noopener">
+                                                <div>
+                                                    <span class="h5 card-title">
+                                                        Bootstrap Toaster
+                                                    </span>
+                                                    <span class="fas fa-link" aria-hidden="true"></span>
+                                                </div>
+                                            </a>
+                                            <div class="badge badge-success">March 2020 - Present</div>
+                                            <a href="https://www.jsdelivr.com/package/npm/bootstrap-toast.js"
+                                                target="_blank" rel="noopener">
+                                                <img src="https://camo.githubusercontent.com/80e783447ec2a34fb2f55cbd7cd406d11994515d/68747470733a2f2f646174612e6a7364656c6976722e636f6d2f76312f7061636b6167652f6e706d2f626f6f7473747261702d746f6173742e6a732f62616467653f7374796c653d726f756e646564"
+                                                    alt="jsDelivr Download Stats"
+                                                    data-canonical-src="https://data.jsdelivr.com/v1/package/npm/bootstrap-toast.js/badge?style=rounded"
+                                                    style="max-width:100%;">
+                                            </a>
+                                            <div>
+                                                <span>Skills Used: </span>
+                                                <span class="badge badge-primary">HTML</span>
+                                                <span class="badge badge-primary">CSS</span>
+                                                <span class="badge badge-primary">JavaScript</span>
+                                                <span class="badge badge-primary">Bootstrap</span>
+                                                <span class="badge badge-primary">npm</span>
+                                            </div>
+                                            <div>
+                                                <hr />
+                                            </div>
+                                            <div class="navbar navbar-expand-md">
+                                                <button class="bg-info text-light navbar-toggler mb-1" type="button"
+                                                    data-toggle="collapse" data-target="#descToast"
+                                                    aria-controls="descToast" aria-expanded="false"
+                                                    aria-label="Read more about this project.">
+                                                    Read About This Project <span class="fas fa-caret-down"
+                                                        aria-hidden="true"></span>
+                                                </button>
+                                                <p id="descToast" class="card-text collapse navbar-collapse">
+                                                    An open-source, personal project of mine, Bootstrap Toaster is a
+                                                    robust, plug & play generator for Bootstrap toast
+                                                    notifications. I designed it as a way to quickly and
+                                                    programmatically create Bootstrap toasts by abstracting the
+                                                    setup and maintenance from the developer. It features a variety of
+                                                    customization options including support for automatic light
+                                                    and dark theme detection, positioning in each corner of the
+                                                    viewport, elapsed time displayed on the toast, and different
+                                                    statuses to convey different meanings. It also has built-in support
+                                                    accessibility considerations for screenreaders,
+                                                    making it a perfect fit for institutions with accessibility
+                                                    requirements.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div id="toastDemo" class="col-md-6 col-lg-4">
+                                            <div class="toast fade show" role="status" aria-live="polite"
+                                                aria-atomic="true" data-autohide="true" data-delay="10000">
+                                                <div class="toast-header">
+                                                    <span class="status-icon fas mr-2 text-success fa-check-circle"
+                                                        aria-hidden="true"></span>
+                                                    <strong class="mr-auto toast-title">Success</strong>
+                                                    <small class="timer" aria-hidden="true">just now</small>
+                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="toast-body">
+                                                    Task completed successfully.
+                                                </div>
+                                            </div>
+                                            <div class="toast fade show" role="alert" aria-live="assertive"
+                                                aria-atomic="true" data-autohide="true" data-delay="10000">
+                                                <div class="toast-header">
+                                                    <span
+                                                        class="status-icon fas mr-2 text-warning fa-exclamation-circle"
+                                                        aria-hidden="true"></span>
+                                                    <strong class="mr-auto toast-title">Warning</strong>
+                                                    <small class="timer" aria-hidden="true">1m ago</small>
+                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="toast-body">
+                                                    There's something that needs your attention.
+                                                </div>
+                                            </div>
+                                            <div class="toast fade show" role="alert" aria-live="assertive"
+                                                aria-atomic="true" data-autohide="true" data-delay="10000">
+                                                <div class="toast-header">
+                                                    <span class="status-icon fas mr-2 text-danger fa-times-circle"
+                                                        aria-hidden="true"></span>
+                                                    <strong class="mr-auto toast-title">Error</strong>
+                                                    <small class="timer" aria-hidden="true">2m ago</small>
+                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="toast-body">
+                                                    A server error occurred.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <!-- Azure -->
                         <li class="glide__slide">
                             <div class="card">
@@ -334,7 +446,7 @@
                                             <div class="h5 card-title">
                                                 Azure Migration
                                             </div>
-                                            <div class="badge badge-success">May 2020 - Present</div>
+                                            <div class="badge badge-success">May - October 2020</div>
                                             <div>
                                                 <span>Skills Used: </span>
                                                 <span class="badge badge-primary">Azure DevOps</span>
@@ -408,7 +520,7 @@
                                                     <span class="fas fa-link" aria-hidden="true"></span>
                                                 </div>
                                             </a>
-                                            <div class="badge badge-success">March 2020 - June 2020</div>
+                                            <div class="badge badge-success">March - June 2020</div>
                                             <div>
                                                 <span>Skills Used: </span>
                                                 <span class="badge badge-primary">C#</span>
@@ -477,119 +589,6 @@
                                                         <img src="images/projects/nursing4.png" class="d-block w-100"
                                                             alt="Upcoming events feed">
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- Toasts -->
-                        <li class="glide__slide">
-                            <div class="card">
-                                <div class="card-body project-card-body">
-                                    <div class="row">
-                                        <div class="col-md-6 col-lg-8 project-card-details mb-3 mb-lg-0">
-                                            <a href="https://github.com/PeytonRG/bootstrap-toast.js" target="_blank"
-                                                rel="noopener">
-                                                <div>
-                                                    <span class="h5 card-title">
-                                                        bootstrap-toast.js
-                                                    </span>
-                                                    <span class="fas fa-link" aria-hidden="true"></span>
-                                                </div>
-                                            </a>
-                                            <div class="badge badge-success">March 2020 - Present</div>
-                                            <a href="https://www.jsdelivr.com/package/npm/bootstrap-toast.js"
-                                                target="_blank" rel="noopener">
-                                                <img src="https://camo.githubusercontent.com/80e783447ec2a34fb2f55cbd7cd406d11994515d/68747470733a2f2f646174612e6a7364656c6976722e636f6d2f76312f7061636b6167652f6e706d2f626f6f7473747261702d746f6173742e6a732f62616467653f7374796c653d726f756e646564"
-                                                    alt="jsDelivr Download Stats"
-                                                    data-canonical-src="https://data.jsdelivr.com/v1/package/npm/bootstrap-toast.js/badge?style=rounded"
-                                                    style="max-width:100%;">
-                                            </a>
-                                            <div>
-                                                <span>Skills Used: </span>
-                                                <span class="badge badge-primary">HTML</span>
-                                                <span class="badge badge-primary">CSS</span>
-                                                <span class="badge badge-primary">JavaScript</span>
-                                                <span class="badge badge-primary">Bootstrap</span>
-                                                <span class="badge badge-primary">npm</span>
-                                            </div>
-                                            <div>
-                                                <hr />
-                                            </div>
-                                            <div class="navbar navbar-expand-md">
-                                                <button class="bg-info text-light navbar-toggler mb-1" type="button"
-                                                    data-toggle="collapse" data-target="#descToast"
-                                                    aria-controls="descToast" aria-expanded="false"
-                                                    aria-label="Read more about this project.">
-                                                    Read About This Project <span class="fas fa-caret-down"
-                                                        aria-hidden="true"></span>
-                                                </button>
-                                                <p id="descToast" class="card-text collapse navbar-collapse">
-                                                    An open-source, personal project of mine, bootstrap-toast.js is a
-                                                    robust, plug & play generator for Bootstrap toast
-                                                    notifications. I designed it as a way to quickly and
-                                                    programmatically create Bootstrap toasts by abstracting the
-                                                    setup and maintenance from the developer. It features a variety of
-                                                    customization options including support for automatic light
-                                                    and dark theme detection, positioning in each corner of the
-                                                    viewport, elapsed time displayed on the toast, and different
-                                                    statuses to convey different meanings. It also has built-in support
-                                                    accessibility considerations for screenreaders,
-                                                    making it a perfect fit for institutions with accessibility
-                                                    requirements.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div id="toastDemo" class="col-md-6 col-lg-4">
-                                            <div class="toast fade show" role="status" aria-live="polite"
-                                                aria-atomic="true" data-autohide="true" data-delay="10000">
-                                                <div class="toast-header">
-                                                    <span class="status-icon fas mr-2 text-success fa-check-circle"
-                                                        aria-hidden="true"></span>
-                                                    <strong class="mr-auto toast-title">Success</strong>
-                                                    <small class="timer" aria-hidden="true">just now</small>
-                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="toast-body">
-                                                    Task completed successfully.
-                                                </div>
-                                            </div>
-                                            <div class="toast fade show" role="alert" aria-live="assertive"
-                                                aria-atomic="true" data-autohide="true" data-delay="10000">
-                                                <div class="toast-header">
-                                                    <span
-                                                        class="status-icon fas mr-2 text-warning fa-exclamation-circle"
-                                                        aria-hidden="true"></span>
-                                                    <strong class="mr-auto toast-title">Warning</strong>
-                                                    <small class="timer" aria-hidden="true">1m ago</small>
-                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="toast-body">
-                                                    There's something that needs your attention.
-                                                </div>
-                                            </div>
-                                            <div class="toast fade show" role="alert" aria-live="assertive"
-                                                aria-atomic="true" data-autohide="true" data-delay="10000">
-                                                <div class="toast-header">
-                                                    <span class="status-icon fas mr-2 text-danger fa-times-circle"
-                                                        aria-hidden="true"></span>
-                                                    <strong class="mr-auto toast-title">Error</strong>
-                                                    <small class="timer" aria-hidden="true">2m ago</small>
-                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="toast-body">
-                                                    A server error occurred.
                                                 </div>
                                             </div>
                                         </div>
@@ -778,85 +777,6 @@
                                 </div>
                             </div>
                         </li>
-                        <!-- AUFSTC -->
-                        <li class="glide__slide">
-                            <div class="card">
-                                <div class="card-body project-card-body">
-                                    <div class="row">
-                                        <div class="col-md-5 project-card-details mb-3 mb-lg-0">
-                                            <div class="h5 card-title">AUFSTC</div>
-                                            <div class="badge badge-success">July - August 2019</div>
-                                            <div>
-                                                <span>Skills Used: </span>
-                                                <span class="badge badge-primary">C#</span>
-                                                <span class="badge badge-primary">SQL</span>
-                                                <span class="badge badge-primary">HTML</span>
-                                                <span class="badge badge-primary">CSS</span>
-                                                <span class="badge badge-primary">JavaScript</span>
-                                                <span class="badge badge-primary">Bootstrap</span>
-                                            </div>
-                                            <div>
-                                                <hr />
-                                            </div>
-                                            <div class="navbar navbar-expand-md">
-                                                <button class="bg-info text-light navbar-toggler mb-1" type="button"
-                                                    data-toggle="collapse" data-target="#descAUFSTC"
-                                                    aria-controls="descAUFSTC" aria-expanded="false"
-                                                    aria-label="Read more about this project.">
-                                                    Read About This Project <span class="fas fa-caret-down"
-                                                        aria-hidden="true"></span>
-                                                </button>
-                                                <p id="descAUFSTC" class="card-text collapse navbar-collapse">
-                                                    Led a team of four co-op students in updating the Auburn University
-                                                    Football Student Ticketing Center (AUFSTC) for the
-                                                    2019 football season. The application provides a means for students
-                                                    to request free tickets/guest passes, return
-                                                    purchased/awarded tickets to the student ticket pool, view and
-                                                    dispute penalties for missing/arriving late to games,
-                                                    etc., and for administrators to take action on ticket requests,
-                                                    disputed penalties, add new tickets to the student
-                                                    ticket pool, generate reports on attendance data, ticket request
-                                                    demographics, etc., as well as customize email
-                                                    templates that are sent programmatically when various actions are
-                                                    completed or as part of scheduled tasks.
-                                                    <br /><br />
-                                                    My role centered around updating the "Email Hub" and its
-                                                    accompanying backend code. The Email Hub is where
-                                                    administrators can edit the body of the aforementioned templates,
-                                                    and add variables that are replaced or "filled" when
-                                                    an email is sent. I redesigned the system to feature greater
-                                                    flexibility by being data-driven and adding support for
-                                                    user permissions for editing a particular template. The previous
-                                                    implementation also duplicated code across different
-                                                    methods for each template, so I refactored into new, more
-                                                    memory-efficient and maintainable functions made possible by
-                                                    the redesigned database tables.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div id="carouselAUFSTC" class="carousel slide" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#carouselAUFSTC" data-slide-to="0" class="active">
-                                                    </li>
-                                                    <li data-target="#carouselAUFSTC" data-slide-to="1"></li>
-                                                </ol>
-                                                <div class="carousel-inner">
-                                                    <div class="carousel-item active">
-                                                        <img src="images/projects/aufstc1.png" class="d-block w-100"
-                                                            alt="Various email templates in the Email Hub.">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/projects/aufstc2.png" class="d-block w-100"
-                                                            alt="Email template editor with highlighted placeholder variables.">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
                         <!-- News -->
                         <li class="glide__slide">
                             <div class="card">
@@ -938,121 +858,6 @@
                                                             alt="List of recently published articles.">
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- Nutrition -->
-                        <li class="glide__slide">
-                            <div class="card">
-                                <div class="card-body project-card-body">
-                                    <div class="row">
-                                        <div class="col-12 project-card-details mb-3 mb-lg-0">
-                                            <div class="h5 card-title">Tiger Nutrition</div>
-                                            <div class="badge badge-success">June - July 2019</div>
-                                            <div>
-                                                <span>Skills Used: </span>
-                                                <span class="badge badge-primary">iOS</span>
-                                                <span class="badge badge-primary">Xamarin.Forms</span>
-                                                <span class="badge badge-primary">C#</span>
-                                                <span class="badge badge-primary">API</span>
-                                                <span class="badge badge-primary">SQL</span>
-                                            </div>
-                                            <div>
-                                                <hr />
-                                            </div>
-                                            <div class="navbar navbar-expand-md">
-                                                <button class="bg-info text-light navbar-toggler mb-1" type="button"
-                                                    data-toggle="collapse" data-target="#descNutrition"
-                                                    aria-controls="descNutrition" aria-expanded="false"
-                                                    aria-label="Read more about this project.">
-                                                    Read About This Project <span class="fas fa-caret-down"
-                                                        aria-hidden="true"></span>
-                                                </button>
-                                                <p id="descNutrition" class="card-text collapse navbar-collapse">
-                                                    Led a team of five co-op students in providing new features to an
-                                                    existing application for Auburn Athletics' Tiger
-                                                    Nutrition system. The system allows volunteers to track new
-                                                    inventory via barcode or manually on the web, as well as
-                                                    tracking compound items as a unit, such as smoothie recipes and
-                                                    generating reports of student athlete orders.
-                                                    Additionally, an iPad app and accompanying web API provide
-                                                    functionality for student athletes to place orders from the
-                                                    Nutrition menu, which is updated live based on availability and
-                                                    whether an item is enabled for ordering.
-                                                    <br /><br />
-                                                    My contributions include the addition of daily limits per student
-                                                    athlete for certain items specified by application
-                                                    administrators, either at a per-item or per-category level. For
-                                                    instance, each athlete is only allowed to order no more
-                                                    than two Smucker's PB&J sandwiches per day, but can only order a
-                                                    single smoothie of any type per day. This required
-                                                    modifications to the database design, new stored procedures for
-                                                    determining an athlete's daily order counts for items,
-                                                    and was followed by updates to the API and iPad app to display and
-                                                    enforce the new daily limits.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- ROTC -->
-                        <li class="glide__slide">
-                            <div class="card">
-                                <div class="card-body project-card-body">
-                                    <div class="row">
-                                        <div class="col-12 project-card-details mb-3 mb-lg-0">
-                                            <div class="h5 card-title">ROTC Study Hours</div>
-                                            <div class="badge badge-success">November - December 2018</div>
-                                            <div>
-                                                <span>Skills Used: </span>
-                                                <span class="badge badge-primary">iOS</span>
-                                                <span class="badge badge-primary">Xamarin.Forms</span>
-                                                <span class="badge badge-primary">C#</span>
-                                                <span class="badge badge-primary">API</span>
-                                            </div>
-                                            <div>
-                                                <hr />
-                                            </div>
-                                            <div class="navbar navbar-expand-md">
-                                                <button class="bg-info text-light navbar-toggler mb-1" type="button"
-                                                    data-toggle="collapse" data-target="#descROTC"
-                                                    aria-controls="descNutrition" aria-expanded="false"
-                                                    aria-label="Read more about this project.">
-                                                    Read About This Project <span class="fas fa-caret-down"
-                                                        aria-hidden="true"></span>
-                                                </button>
-                                                <p id="descROTC" class="card-text collapse navbar-collapse">
-                                                    Developed a mobile application for Naval and Army ROTC students at
-                                                    Auburn University to track their required weekly
-                                                    study hours. Students in the programs swipe their ID cards at an
-                                                    iPad kiosk in the study hall to sign in and out of the
-                                                    system. After swiping their card, the student is shown their details
-                                                    and how many hours they have logged so far during
-                                                    the week and/or session as confirmation. An accompanying web
-                                                    application allows administrators to track the progress of
-                                                    each student, as well as apply statuses to students such as "good
-                                                    standing" or "probation" for instructors to see, as
-                                                    well as compile more wholistic information about the students into
-                                                    various reports. Various configuration options are
-                                                    provided, such as the interval of days over which to track students,
-                                                    minimum time signed in before counting toward the
-                                                    requirement, and changing the base requirement or introducing
-                                                    temporary requirements, such as in the case of a national
-                                                    holiday.
-                                                    <br /><br />
-                                                    I was the sole developer of the iPad app for this project, while my
-                                                    teammates developed the web app, so I learned how to
-                                                    create user interfaces with Xamarin.Forms and architect a project in
-                                                    the MVVM paradigm rather than our usual go-to, MVC.
-                                                    As the iPad app neared completion, I began to help out with the web
-                                                    API that the iPad relies on for all of its data
-                                                    transfer.
-                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1180,9 +985,6 @@
                     <li class="glide__bullet" data-glide-dir="=4"></li>
                     <li class="glide__bullet" data-glide-dir="=5"></li>
                     <li class="glide__bullet" data-glide-dir="=6"></li>
-                    <li class="glide__bullet" data-glide-dir="=7"></li>
-                    <li class="glide__bullet" data-glide-dir="=8"></li>
-                    <li class="glide__bullet" data-glide-dir="=9"></li>
                 </ol>
             </div>
         </div>

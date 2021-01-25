@@ -198,6 +198,10 @@ footer hr {
     text-shadow: 0.1rem 0.1rem 0.5rem #000;
 }
 
+.toast {
+    width: 100%;
+}
+
 #toastDemo {
     --header-color-light: #6c757d;
     --text-color-light: #212529;
